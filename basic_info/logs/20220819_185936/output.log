@@ -1,0 +1,2 @@
+2022-08-19 18:59:36,255 - elastic_transport.transport - INFO - Started sniffing for additional nodes
+2022-08-19 18:59:36,258 - elastic_transport.transport - INFO - GET http://192.168.1.82:9204/_nodes/_all/http [status:200 duration:0.003s]

@@ -1,0 +1,9 @@
+2022-08-19 19:01:12,363 - elastic_transport.transport - INFO - Started sniffing for additional nodes
+2022-08-19 19:01:12,367 - elastic_transport.transport - INFO - GET http://192.168.1.82:9204/_nodes/_all/http [status:200 duration:0.004s]
+2022-08-19 19:01:26,805 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - --------开始执行用例-------
+2022-08-19 19:01:26,805 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - 开始时间：2022-08-19 19:01:26.805760
+2022-08-19 19:01:26,805 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - --------开始执行api case-------
+2022-08-19 19:01:26,806 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - request  data：gjb_ttest_hdfs_student_&test_hdfs_csv
+2022-08-19 19:01:26,930 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - 开始执行：数据资源订阅-once_hdfs_csv
+2022-08-19 19:01:26,931 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - request   url：http://192.168.1.62:8515/api/dsp/consumer/application/save
+2022-08-19 19:01:26,970 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - ERROR - 异常信息：tuple index out of range

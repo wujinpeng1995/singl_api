@@ -1,0 +1,10 @@
+2022-08-19 14:39:01,356 - elastic_transport.transport - INFO - Started sniffing for additional nodes
+2022-08-19 14:39:01,360 - elastic_transport.transport - INFO - GET http://192.168.1.82:9204/_nodes/_all/http [status:200 duration:0.004s]
+2022-08-19 14:39:15,481 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - --------开始执行用例-------
+2022-08-19 14:39:15,481 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - 开始时间：2022-08-19 14:39:15.481760
+2022-08-19 14:39:15,481 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - --------开始执行api case-------
+2022-08-19 14:39:15,482 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - request  data：None
+2022-08-19 14:39:15,558 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - 开始执行：管理员登录
+2022-08-19 14:39:15,559 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - request   url：http://192.168.1.62:8515/login
+2022-08-19 14:39:15,581 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - response data：404 {"timestamp":"2022-08-19 14:39:14","path":"/login","status":404,"error":"Not Found","message":null}
+2022-08-19 14:39:15,581 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - request  data：None

@@ -1,0 +1,9 @@
+2022-08-19 17:49:31,860 - elastic_transport.transport - INFO - Started sniffing for additional nodes
+2022-08-19 17:49:31,864 - elastic_transport.transport - INFO - GET http://192.168.1.82:9204/_nodes/_all/http [status:200 duration:0.004s]
+2022-08-19 17:49:45,876 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - --------开始执行用例-------
+2022-08-19 17:49:45,876 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - 开始时间：2022-08-19 17:49:45.876232
+2022-08-19 17:49:45,877 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - --------开始执行api case-------
+2022-08-19 17:49:45,877 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - request  data：gjb_ttest_hdfs_student2020&DataResource
+2022-08-19 17:49:46,137 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - 开始执行：HDFS数据集数据资源关联
+2022-08-19 17:49:46,137 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - request   url：http://192.168.1.62:8515/api/dsp/platform/datares/save
+2022-08-19 17:53:31,898 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - response data：200 {"status":0,"message":"Request successfully.","content":"1010245038036713472","ok":true}

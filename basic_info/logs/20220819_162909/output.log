@@ -1,0 +1,6 @@
+2022-08-19 16:29:09,692 - elastic_transport.transport - INFO - Started sniffing for additional nodes
+2022-08-19 16:29:09,697 - elastic_transport.transport - INFO - GET http://192.168.1.82:9204/_nodes/_all/http [status:200 duration:0.004s]
+2022-08-19 16:29:24,248 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - --------开始执行用例-------
+2022-08-19 16:29:24,248 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - 开始时间：2022-08-19 16:29:24.248008
+2022-08-19 16:29:24,248 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - --------开始执行api case-------
+2022-08-19 16:29:24,249 - E:\pycharm_code\singl_api-master\singl_api\Reports\Log\AutoTest_20220819.log - INFO - request  data：None
