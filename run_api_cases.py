@@ -5,7 +5,7 @@ import datetime
 from new_api_cases.execute_cases import deal_request_method
 from new_api_cases.execute_cases import CheckResult
 from basic_info.setting import host
-from basic_info.setting import receivers_list
+# from basic_info.setting import receivers_list
 
 # from newSuite import NewSuite
 

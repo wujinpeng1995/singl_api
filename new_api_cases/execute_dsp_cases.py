@@ -292,7 +292,7 @@ def post_request_result_check(row, column, url, headers, data, table_sheet_name)
             write_result(sheet=table_sheet_name, row=row, column=column + 4, value=response.text)
         elif '申请服务数据拉取' in case_detail:
             log.info("request   url：%s" % url)
-            header = {'hosts': '192.168.10.18'}
+            header = {'hosts': '192.168.2.142'}
             new_data = pull_data(data)
             new_data = json.dumps(new_data, separators=(',', ':'))
             log.info("request   data：%s" % new_data)

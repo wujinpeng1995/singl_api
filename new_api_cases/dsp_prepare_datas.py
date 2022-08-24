@@ -33,7 +33,7 @@ def resource_data_save(data):
             new_data = {"categoryId":0,"resourceId": dir_info[0]["id"],"openStatus":0,"type":0,"expiredTime":"0","name":"snow_dataset_dsp随机数","encoder":"UTF-8","sourceType":"DATASET","datasetName":dataset_info[0]["name"],"datasourceName":"","storage":"JDBC","fieldMappings":[{"sourceField":"age","sourceType":"int","targetField":"age","targetType":"int","encrypt":"","index":0,"transformRule":{"type":"","expression":""}},{"sourceField":"sName","sourceType":"string","targetField":"sName","targetType":"string","encrypt":"","index":0,"transformRule":{"type":"","expression":""}},{"sourceField":"sId","sourceType":"string","targetField":"sId","targetType":"string","encrypt":"","index":0,"transformRule":{"type":"","expression":""}},{"sourceField":"class","sourceType":"string","targetField":"class","targetType":"string","encrypt":"","index":0,"transformRule":{"type":"","expression":""}},{"sourceField":"sex","sourceType":"string","targetField":"sex","targetType":"string","encrypt":"","index":0,"transformRule":{"type":"","expression":""}}],"timeStamp":"永久有效","isIncrementField":"false","incrementField":"age","query":{"sqlTemplate":""},"datasetId":dataset_info[0]["id"],"category_id":dataset_info[0]["resource_id"]}
             deal_random(new_data)
             return new_data
-        elif 'dw-订单表' in data:
+        elif 'df-订单表' in data:
             new_data = {"categoryId":0,"resourceId": dir_info[0]["id"],"openStatus":0,"type":0,"expiredTime":"0","name":"api_mysqldataset_随机数","encoder":"UTF-8","sourceType":"DATASET","datasetName":dataset_info[0]["name"],"datasourceName":"","storage":"JDBC","fieldMappings":[{"sourceField":"id","sourceType":"int","targetField":"id","targetType":"int","encrypt":"","index":0,"transformRule":{"type":"","expression":""}},{"sourceField":"user_id","sourceType":"int","targetField":"user_id","targetType":"int","encrypt":"","index":0,"transformRule":{"type":"","expression":""}},{"sourceField":"number","sourceType":"string","targetField":"number","targetType":"string","encrypt":"","index":0,"transformRule":{"type":"","expression":""}},{"sourceField":"createtime","sourceType":"timestamp","targetField":"createtime","targetType":"timestamp","encrypt":"","index":0,"transformRule":{"type":"","expression":""}},{"sourceField":"note","sourceType":"string","targetField":"note","targetType":"string","encrypt":"","index":0,"transformRule":{"type":"","expression":""}},{"sourceField":"dt","sourceType":"string","targetField":"dt","targetType":"string","encrypt":"","index":0,"transformRule":{"type":"","expression":""}}],"timeStamp":"永久有效","isIncrementField":"true","incrementField":"id","query":{"sqlTemplate":""},"datasetId":dataset_info[0]["id"],"category_id":dataset_info[0]["resource_id"]}
             deal_random(new_data)
             return new_data
@@ -460,9 +460,10 @@ def enable_role(data):
 
 def enable_user(data):
     try:
-        sql = "select enabled,id from merce_user where name like '%s%%%%' order by create_time desc limit 1" % data
+        sql = "select enabled,id from merce_user where name like '%s%%%%' order by create_time desc limit 2" % data
         user_info = ms.ExecuQuery(sql.encode('utf-8'))
         ids=[]
+
         ids.append(str(user_info[0]["id"]))
         if user_info[0]["enabled"]==1:
             new_data = {"enabled":0,"ids":ids}
